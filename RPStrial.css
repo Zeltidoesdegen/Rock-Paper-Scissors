@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("https://t4.ftcdn.net/jpg/01/97/51/55/360_F_197515548_Ox3B0EBls93W3ISmprh0HTHXT70BpST3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: myTimeFont;
+    src: url(digital-7.ttf);
+}
+
+@font-face {
+    font-family: resetBtn;
+    src: url(Reset.ttf);
+}
+
+#opponent-choice {
+    width: 240px;
+    height: 240px;
+    margin-top: 10px;
+    
+}
+
+#your-choice {
+    width: 240px;
+    height: 240px;
+    margin-top: 10px; 
+    border: none;
+}
+
+#choices {
+    width: 240px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#match-history {
+    position: absolute;
+    top: 0;
+    margin-top: 3rem ;
+    text-decoration: dashed;
+    border: solid 1px black;
+    margin-left: 3rem;
+    width: 40rem;
+    border-radius: 25px;
+}
+
+#match-history li {
+    list-style-type: square;
+}
+
+#choices img {
+    width: 80px;
+    height: 80px;
+}
+
+span {
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    font-size: 3rem;
+    height: auto;
+    border: black 1px solid;
+    border-radius: 5px;
+    font-family: myTimeFont;
+    margin-left: 30rem;
+    top: 0;
+    margin-top: 3rem;
+}
+
+#reset-button {
+    font-family: resetBtn;
+}
